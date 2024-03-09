@@ -85,3 +85,105 @@ padding-right: 20px;
   font-weight: 700;
   src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+
+/* BLOCKS */
+
+/* BUTTONS  */
+.button {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  text-transform: capitalize;
+}
+.button--grey {
+  margin-right: 24px;
+  color: var(--text-color-main);
+  background-color: transparent;
+}
+.button--blue-mini {
+  padding: 12px 20px 13px 22px;
+  color: var(--text-color-white);
+  background-color: var(--blue-50);
+  border-radius: 10px;
+}
+.button--blue-bigger {
+  padding: 24px 75px;
+  color: var(--text-color-white);
+  background-color: var(--blue-50);
+  border-radius: 10px;
+}
+.button--grey-bigger {
+  color: var(--text-color-main);
+  padding: 24px 75px;
+  background-color: transparent;
+  border: 1px solid rgb(112, 112, 112);
+  border-radius: 10px;
+}
+/* SITE HEADER  */
+.site-header {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-right: 20px;
+  text-decoration: none;
+}
+.logo:hover {
+  opacity: 0.8;
+}
+.logo:active {
+  opacity: 0.6;
+}
+.logo__img {
+  display: block;
+  width: 196px;
+  height: 56px;
+  object-fit: contain;
+}
+.sitenav__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.sitenav__item:not(:last-child){
+  margin-right: 39px;
+}
+.sitenav__link {
+  color: var(--text-color-main);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.sitenav__link:hover {
+  color: var(--blue-60);
+}
+.sitenav__link:active {
+  opacity: 0.6;
+}
+.action-link-wrapper {
+  display: flex;
+  align-items: center;
+}
+.action-link-wrapper__text {
+  margin-right: 9px;
+}
+.action-link-wrapper__down-arrow {
+  width: 10px;
+  height: 6px;
+  object-fit: cover;
+}
+.buttons-wrapper {
+  display: flex;
+}
